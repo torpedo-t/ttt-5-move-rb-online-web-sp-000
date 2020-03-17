@@ -10,7 +10,7 @@ def input_to_index(number)
   number.to_i
   converted_input = (number.to_i - 1)
 end
-
-def move(board, number, players_character="X")
- board[0] = "X"
+board = [" ", " ", " "]
+def move(board, number, value="X")
+ board[0] = value
 end
