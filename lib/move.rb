@@ -13,9 +13,6 @@ end
 
 def move(board, number, players_character="X")
   board = [" ", " ", " "]
-  def update_array_at_with(board, number, value)
-    board[number] = value
-  end
-   puts update_array_at_with(board, 0, "X")
-
+  board[0] = "X"
+  puts board
 end
