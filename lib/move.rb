@@ -11,10 +11,10 @@ def input_to_index(number)
   converted_input = (number.to_i - 1)
 end
 
-def move(board, converted_input, players_character="X")
+def move(board, number, players_character="X")
   board = [" ", " ", " "]
-def update_array_at_with(board, converted_input, players_character="X")
-  board[converted_input] = players_character="X"
+def update_array_at_with(board, number, players_character="X")
+  board[number] = players_character="X"
 end
  update_array_at_with(board, 0, "X")
 board
