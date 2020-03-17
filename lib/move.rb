@@ -13,7 +13,7 @@ end
 
 def move(board, number, players_character="X")
 end
-update_board_at_with(board, number, players_character="X")
+def update_board_at_with(board, number, players_character="X")
   board[0] = "X"
  update_board_at_with(board, 0, "X")
 board
