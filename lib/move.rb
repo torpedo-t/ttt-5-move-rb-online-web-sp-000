@@ -13,5 +13,7 @@ end
 
 def move(board, number, players_character="X")
  board[0] = "X"
+end
+def move(board, number, players_character="O")
  board[4] = "O"
 end
