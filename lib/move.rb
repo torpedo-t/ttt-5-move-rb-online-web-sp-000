@@ -13,8 +13,8 @@ end
 
 def move(board, converted_input, players_character="X")
   board = [" ", " ", " "]
-def update_array_at_with(array, index, value)
-  array[index] = value
+def update_array_at_with(board, converted_input, players_character="X")
+  board[converted_input] = players_character="X"
 end
  update_array_at_with(board, 0, "X")
 board
